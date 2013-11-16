@@ -1,0 +1,2 @@
+angular-browserify-seed
+=======================
