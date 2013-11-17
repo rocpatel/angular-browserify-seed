@@ -1,5 +1,4 @@
-module.exports = function (angular, appName) {
-  var moduleName = appName + '.services';
+module.exports = function (angular, moduleName) {
   angular.module(moduleName,[]);
   return moduleName;
 }

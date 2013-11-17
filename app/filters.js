@@ -1,6 +1,4 @@
-module.exports = function(angular,appName) {
-  var moduleName = appName + '.filters';
-
+module.exports = function(angular,moduleName) {
   angular.module(moduleName,[]);
   return moduleName;
 };

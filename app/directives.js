@@ -1,5 +1,4 @@
-module.exports = function (angular, appName) {
-  var moduleName = appName + '.directives';
+module.exports = function (angular, moduleName) {
   angular.module(moduleName,[]);
   return moduleName;
 };
