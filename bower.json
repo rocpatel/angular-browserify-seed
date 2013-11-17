@@ -1,0 +1,30 @@
+{
+  "name": "angular-browserify-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rocpatel/angular-browserify-seed",
+  "authors": [
+    "Rakesh Patel <roc@rocpatel.me>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.1",
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.2",
+    "angular-bootstrap": "~0.6.0",
+    "angular-cookies": "~1.2.1",
+    "angular-mocks": "~1.2.1",
+    "angular-resource": "~1.2.1",
+    "angular-route": "~1.2.1",
+    "angular-scenario": "~1.2.1",
+    "json3": "~3.2.5"
+  }
+}

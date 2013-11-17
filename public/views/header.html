@@ -1,0 +1,6 @@
+<div class="navbar-inner" ng-controller="HeaderController">
+    <ul class="nav navbar-nav">
+        <li><a class="navbar-brand" href="/">myApp</a></li>
+        <li ng-repeat="entry in navBarEntries"><a href="#!/{{entry.link}}">{{entry.title}}</a></li>
+    </ul>
+</div>
