@@ -54,7 +54,7 @@ module.exports = function(grunt) {
       },
       font: {
         src: './vendor/bootstrap/dist/fonts/*',
-        dest: './public/fonts/*'
+        dest: './public/fonts/'
       }
     },
     concat : {
